@@ -12,9 +12,17 @@
       content="default-src 'self'; script-src 'self'"
     />
     <title>Hello from Electron renderer!</title>
+    <style>
+      body {
+        background: #000;
+        color: #fff;
+      }
+    </style>
   </head>
   <body>
     <h1>Hello from Electron renderer!</h1>
     <p>👋</p>
+    <p id="info"></p>
   </body>
+  <script src="./renderer.js"></script>
 </html>
